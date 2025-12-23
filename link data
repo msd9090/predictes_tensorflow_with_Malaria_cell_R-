@@ -1,0 +1,28 @@
+🔬 Malaria Diagnosis: A Deep Learning Approach
+This project focuses on the intersection of Artificial Intelligence and Medical Science. By leveraging Convolutional Neural Networks (CNN) in R, we aim to provide a rapid, automated tool for identifying Malaria-infected cells.
+
+🦠 What is Malaria? (Scientific Overview)
+Malaria is caused by Plasmodium parasites. When a patient is infected, these parasites enter the bloodstream and infect Red Blood Cells (RBCs).
+
+Diagnostic Visual Cues:
+Parasitized Cells: These cells contain visible "inclusions" or "spots" (often purple or dark-colored under Giemsa stain). They may show ring-like structures, which are the parasites multiplying inside the cell.
+
+Uninfected Cells: Normal cells are clear, healthy-looking, and lack any dark spots or irregular internal structures.
+
+Our AI model is designed to detect these microscopic differences that are sometimes missed by the human eye under fatigue.
+
+📊 Dataset Information & Resource Access
+The data required to run this model consists of thousands of high-resolution images. Due to storage limitations on GitHub, the full dataset and clinical documentation are hosted on Kaggle.
+
+🔗 CLICK HERE TO ACCESS THE COMPLETE DATASET
+
+https://www.kaggle.com/datasets/miracle9to9/files1
+
+🛠️ Model & Technology
+Language: R
+
+Deep Learning Framework: Keras (TensorFlow backend)
+
+Image Processing: magick & imager
+
+Architecture: A multi-layered CNN optimized for binary classification (Infected vs. Healthy).
